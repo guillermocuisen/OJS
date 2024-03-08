@@ -1,0 +1,266 @@
+
+html {
+  margin:0;
+}
+.article_full {
+  max-width: 1088px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title_esp {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -1em;     
+  font-weight: 800;
+  font-style: normal;
+    color: #707070;
+
+}
+
+.title_en {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+  font-style:italic;
+  margin-bottom: -1em;
+  color: #707070;
+
+}
+.subtitle_esp {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    text-align: center;
+     
+  font-weight: 700;
+  font-style: normal;
+    color: #707070;
+}
+
+.subtitle_en {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  text-align: center;
+   
+font-weight: 700;
+font-style: italic;
+  color: #707070;
+}
+
+.doi{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+   text-align: center;
+font-weight: 400;
+  font-style: normal;
+  color: #707070;
+  line-height: 1.8em;
+}
+
+.doi:before {
+  content: '';
+    background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/DOI_logo.svg/130px-DOI_logo.svg.png');
+    background-size:cover;
+    position:absolute;
+width:30px;
+height:30px;
+margin-left:-30px;
+   
+}
+
+.license {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+   text-align: center;
+font-weight: 400;
+  font-style: normal;
+  color: #707070;
+  line-height: 1.8em;
+  padding-bottom:2rem;
+
+}
+.date-author {
+  display: flex;
+  margin-bottom: 3em;
+}
+.date {
+  width: 50%;
+}
+
+.author {
+  width: 50%;
+  padding-left:2rem;
+}
+
+.date_reception, .date_approval, .author_name, .author_university, .author_country, .author_orcid a{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+   text-align: justify;
+font-weight: 400;
+  
+  color: #707070;
+  line-height: 1.8em;
+  hyphens: auto;
+}
+
+.author_university {
+  font-style: italic;
+}
+.author_country {
+  font-weight: 700;;
+}
+
+.author_orcid{
+  padding-left:30px;
+}
+.author_orcid:before {
+  content: '';
+    background:url('https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg');
+    background-size:cover;
+    position:absolute;
+width:30px;
+height:30px;
+margin-left:-30px;
+}
+.abstract {
+    display:flex;
+}
+.abstract_esp{
+  padding-right:1.5rem;
+  width: 50%;
+}
+.abstract_esp_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+   text-align: justify;
+font-weight: 700;
+  font-style: normal;
+  color: #707070;
+  line-height: 1.8em;
+  margin-bottom: -1em;
+}
+
+.abstract_en_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+   text-align: justify;
+font-weight: 700;
+  font-style: normal;
+  color: #707070;
+  line-height: 1.8em;
+  margin-bottom: -1em;
+}
+
+.abstract_en{
+  padding-left:1.5rem;
+  width: 50%;
+
+}
+
+.abstract_esp_keywords p, .abstract_en_keywords p {
+  text-align: left;
+  hyphens:none;
+
+}
+
+.article_body_head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+   text-align: justify;
+font-weight: 700;
+  font-style: normal;
+  color: #707070;
+  line-height: 1.8em;
+  margin-bottom: -1em;
+}
+
+.article_body_subtopic_001 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+   text-align: justify;
+font-weight: 600;
+  font-style: italic;
+  color: #707070;
+  line-height: 1.8em;
+  margin-top: 1em;
+  margin-bottom: -1em;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+     text-align: justify;
+  font-weight: 400;
+    font-style: normal;
+    color: #707070;
+    line-height: 1.8em;
+    hyphens: auto;
+}
+
+.ordered_list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+   text-align: justify;
+font-weight: 400;
+  font-style: normal;
+  color: #707070;
+  line-height: 1.8em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.article_body_quote p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+   text-align: justify;
+font-weight: 400;
+  font-style: italic;
+  color: #707070;
+  line-height: 1.8em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.article_bibliography {
+  max-width: 720px ;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.article_endnotes_container {
+  background-color: #006798 ;
+  
+    bottom:0;
+    width:100%;
+   margin:0; padding:0;
+}
+
+.article_endnotes {
+  max-width: 900px;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.endnotes a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+   text-align: justify;
+font-weight: 400;
+  font-style: italic;
+  color: white;
+  line-height: 1.8em;
+}
+
+
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+  font-weight: 800;
+}
